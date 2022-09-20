@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="x-icon" href="images\Shortcut.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.Welcome()</title>
+</head>
+<body>
+
+    <div id="bottom-shadow"></div>
+
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <div class="container">
+        <section class="welcome">
+            <div class="loader">
+                <h1 id="welcome-text">.Welcome()</h1>
+            </div>
+            <p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    
+        <section class="apps">
+            <h1 id="h1">Lorem ipsum dolor sit amet</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    
+        <section class="div3">
+            <h1 id="h1">Consectetur adipiscing elit</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    
+        <section class="div4">
+            <h1 id="h1">Sed lorem lectus</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    
+        <section class="div5">
+            <h1 id="h1">Fringilla vitae convallis sed</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    
+        <section class="div6">
+            <h1 id="h1">Dictum eu lectus</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lorem lectus, fringilla vitae convallis sed, dictum eu lectus. Etiam tempus faucibus efficitur. Vivamus vehicula erat sed lorem pulvinar elementum. Praesent non neque quis dolor scelerisque rhoncus sed quis massa. Aliquam venenatis velit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi in hendrerit dui, quis ornare metus.</p>
+        </section>
+    </div>
+
+    <div class="about">
+    </div>
+
+    
+
+    <header>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#finish">contact</a></li>
+            </ul>
+    </header>
+
+
+
+    
+    <script type="text/javascript">
+
+        let windowSize = window.innerWidth / 2;
+
+        window.addEventListener("scroll", function(){
+
+            let value = window.scrollY;
+
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+
+        })
+
+    </script>
+
+
+<div id="finish"></div>
+</body>
+</html>
